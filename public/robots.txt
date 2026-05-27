@@ -1,0 +1,26 @@
+# Robots.txt for Matthias Z. Iliya Portfolio
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /node_modules/
+Disallow: /.env*
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://matthias-portfolio.com/sitemap.xml
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Matthias Z. Iliya | Full-Stack Developer & Creative Technologist</title>
+    <meta name="title" content="Matthias Z. Iliya | Full-Stack Developer & Creative Technologist">
+    <meta name="description" content="Premium portfolio of Matthias Z. Iliya - Full-Stack Web Developer, UI/UX Designer, Mobile App Developer, and Creative Technologist. Specializing in innovative digital experiences.">
+    <meta name="keywords" content="full-stack developer, UI/UX designer, mobile app developer, creative technologist, web development, design">
+    <meta name="author" content="Matthias Z. Iliya">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://matthias-portfolio.com">
+    <meta property="og:title" content="Matthias Z. Iliya | Full-Stack Developer & Creative Technologist">
+    <meta property="og:description" content="Premium portfolio of Matthias Z. Iliya - Full-Stack Web Developer, UI/UX Designer, Mobile App Developer, and Creative Technologist.">
+    <meta property="og:image" content="https://matthias-portfolio.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://matthias-portfolio.com">
+    <meta property="twitter:title" content="Matthias Z. Iliya | Full-Stack Developer & Creative Technologist">
+    <meta property="twitter:description" content="Premium portfolio of Matthias Z. Iliya - Full-Stack Web Developer, UI/UX Designer, Mobile App Developer, and Creative Technologist.">
+    <meta property="twitter:image" content="https://matthias-portfolio.com/og-image.jpg">
+    
+    <!-- Additional SEO -->
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://matthias-portfolio.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Inter+Tight:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Analytics Placeholder -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- Prevent Theme Flash -->
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('theme-mode');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const isDarkMode = savedTheme ? savedTheme === 'dark' : prefersDark;
+            
+            const html = document.documentElement;
+            if (isDarkMode) {
+                html.classList.add('dark');
+                html.classList.remove('light');
+            } else {
+                html.classList.add('light');
+                html.classList.remove('dark');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
