@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { ArrowRight, Download } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import profileImage from '../assets/images/matthias-profile.png'
+import profileImage from '../assets/images/matthias-profile.png?url'
 
 export default function Hero() {
   const [titleIndex, setTitleIndex] = useState(0)
