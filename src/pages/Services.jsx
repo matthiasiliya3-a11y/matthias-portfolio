@@ -164,7 +164,7 @@ export default function Services() {
       </section>
 
       {/* Services Grid */}
-      <section className="section bg-white dark:bg-gradient-to-b dark:from-premium-black dark:to-graphite/20">
+      <section className="section bg-white dark:bg-premium-black">
         <div className="container max-w-7xl mx-auto">
           <motion.div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"

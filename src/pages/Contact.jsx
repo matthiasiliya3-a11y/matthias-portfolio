@@ -125,7 +125,7 @@ export default function Contact() {
       </section>
 
       {/* Contact Methods */}
-      <section className="section bg-white dark:bg-gradient-to-b dark:from-premium-black dark:to-graphite/20">
+      <section className="section bg-white dark:bg-premium-black">
         <div className="container max-w-7xl mx-auto">
           <motion.div
             className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16"
@@ -354,7 +354,7 @@ export default function Contact() {
       </section>
 
       {/* Quick Actions */}
-      <section className="section bg-gradient-to-b from-premium-black to-graphite/20">
+      <section className="section bg-white dark:bg-premium-black">
         <div className="container max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

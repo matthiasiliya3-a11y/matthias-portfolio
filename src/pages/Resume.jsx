@@ -125,7 +125,7 @@ export default function Resume() {
       </section>
 
       {/* Experience Section */}
-      <section className="section bg-white dark:bg-gradient-to-b dark:from-premium-black dark:to-graphite/20">
+      <section className="section bg-white dark:bg-premium-black">
         <div className="container max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -239,7 +239,7 @@ export default function Resume() {
       </section>
 
       {/* Certifications Section */}
-      <section className="section bg-gradient-to-b from-premium-black to-graphite/20">
+      <section className="section bg-white dark:bg-premium-black">
         <div className="container max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

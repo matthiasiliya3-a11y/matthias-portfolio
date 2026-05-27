@@ -40,7 +40,7 @@ export default function TechStack() {
   }
 
   return (
-    <section className="section bg-white dark:bg-gradient-to-b dark:from-premium-black dark:via-graphite/30 dark:to-premium-black">
+    <section className="section bg-white dark:bg-premium-black">
       <div className="container max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
