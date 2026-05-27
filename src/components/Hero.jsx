@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { ArrowRight, Download } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import profileImage from '../assets/images/matthias-profile.png'
 
 export default function Hero() {
   const [titleIndex, setTitleIndex] = useState(0)
@@ -227,7 +228,7 @@ export default function Hero() {
                 <div className="w-full h-full rounded-full overflow-hidden relative">
                   <div className="absolute inset-0 rounded-full border border-white/15" />
                   <img 
-                    src="/src/assets/images/matthias-profile.png" 
+                    src={profileImage} 
                     alt="Matthias Profile" 
                     className="w-full h-full object-cover rounded-full"
                   />
